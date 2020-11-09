@@ -1,0 +1,128 @@
+body {
+    margin: auto;
+}
+
+main {
+    position:relative;
+    margin: 0;
+    min-height: 750px;
+    justify-content: center;
+    background-image: linear-gradient(to top, #58151a, #BC2909, #ba6d09, #71a8ee, #3072EB, #1152c6, #0542A8);
+}
+
+.choice{
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px, 1px, blue;
+    padding-top: 32%;
+}
+
+.choice-button-flex {
+    display: flex;
+    margin-left: 20%;
+
+}
+.feeling {
+    margin: 7px;
+    padding: 5px;
+    flex-wrap: wrap;
+    font-weight: 400;
+    background-color: cornsilk;
+}
+
+.morning {
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+}
+
+.sun {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 100%;
+    box-shadow:
+    0 0 60px 30px rgb(247, 248, 230),
+    0 0 100px 60px palegoldenrod,
+    0 0 180px 90px rgb(248, 231, 212);
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+    z-index: 1;
+    animation-name: sunrise;
+    animation-duration: 35s;
+}
+
+    @keyframes sunrise {
+        from {bottom: -3%;
+            opacity: 70%;}
+        to {bottom: 70%;
+            opacity: 100%;}
+    }
+  
+.padding{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(225, 225, 240, 0.15);
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+.energeticAdvice {
+    display: none;
+}
+.inspiredQuote {
+    display: none;
+}
+.feelRelaxed {
+    display: none;
+}
+.appreciativeFacts{
+    display: none;
+}
+.productiveTips{
+    display: none;
+}
+
+div.ocean {
+    margin: 0;
+    min-height: 250px;
+    background-image: radial-gradient(at top center,#ecc07d,#86887e,#4e506e,#3d3a50,#393746);
+    z-index: 2;
+}
+
+/*@ media sizes */
+@media only screen and (max-width: 900px) {
+    @keyframes sunrise {
+        from {bottom: -3%;
+            opacity: 70%;}
+        to {bottom: 80%;
+            opacity: 100%;}
+    }
+    .sun {
+        bottom: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+        .choice-button-flex {
+            margin-left: 10%;
+        
+        }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .choice-button-flex {
+        margin-left: 5%;
+    
+  }
+ 
+}
+
