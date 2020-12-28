@@ -5,15 +5,15 @@ body {
 main {
     position:relative;
     margin: 0;
-    min-height: 750px;
+    min-height: 700px;
     justify-content: center;
-    background-image: linear-gradient(to top, #58151a, #BC2909, #ba6d09, #71a8ee, #3072EB, #1152c6, #0542A8);
+    background-image: linear-gradient(to top, #740d14, #f53b11, #ebaa56, #71a8ee, #3072EB, #1152c6, #0542A8);
 }
 
 .choice{
     color: yellow;
     text-align: center;
-    text-shadow: 1px, 1px, blue;
+    text-shadow: 2px, 2px, blue;
     padding-top: 32%;
 }
 
@@ -57,7 +57,7 @@ main {
 
     @keyframes sunrise {
         from {bottom: -3%;
-            opacity: 70%;}
+            opacity: 60%;}
         to {bottom: 70%;
             opacity: 100%;}
     }
@@ -97,22 +97,36 @@ div.ocean {
 }
 
 /*@ media sizes */
+@media only screen and (max-width: 1300px){
+    .choice-button-flex {
+        margin-left: 33%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .choice-button-flex {
+        margin-left: 29%;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     @keyframes sunrise {
         from {bottom: -3%;
-            opacity: 70%;}
+            opacity: 60%;}
         to {bottom: 80%;
             opacity: 100%;}
     }
     .sun {
         bottom: 80%;
     }
+    .choice-button-flex {
+        margin-left: 22%;
+    }
   }
 
   @media only screen and (max-width: 600px) {
 
         .choice-button-flex {
-            margin-left: 10%;
+            margin-left: 12%;
         
         }
   }
