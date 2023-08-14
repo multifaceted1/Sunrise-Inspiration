@@ -19,7 +19,7 @@ main {
 
 .choice-button-flex {
     display: flex;
-    margin-left: 35%;
+    margin-left: 39%;
 
 }
 .feeling {
@@ -49,7 +49,7 @@ main {
     0 0 180px 90px rgb(248, 231, 212);
     position: absolute;
     left: 50%;
-    bottom: 70%;
+    bottom: 73%;
     z-index: 1;
     animation-name: sunrise;
     animation-duration: 35s;
@@ -58,7 +58,7 @@ main {
     @keyframes sunrise {
         from {bottom: -3%;
             opacity: 60%;}
-        to {bottom: 70%;
+        to {bottom: 73%;
             opacity: 100%;}
     }
   
@@ -105,12 +105,12 @@ img.bears {
 /*@ media sizes */
 @media only screen and (max-width: 1300px){
     .choice-button-flex {
-        margin-left: 33%;
+        margin-left: 34%;
     }
 }
 @media only screen and (max-width: 1100px){
     .choice-button-flex {
-        margin-left: 29%;
+        margin-left: 31%;
     }
 }
 
@@ -125,19 +125,19 @@ img.bears {
         bottom: 80%;
     }
     .choice-button-flex {
-        margin-left: 20%;
+        margin-left: 23%;
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
 
         .choice-button-flex {
-            margin-left: 3%;
+            margin-left: 7%;
         
         }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 550px) {
 
     .choice-button-flex {
         margin-left: none;
