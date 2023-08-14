@@ -14,7 +14,10 @@ var quoteArray = [
     "Never do things others can do and will do, if there are things others cannot do or will not do. ~ Amelia Earhart",
     "It is no use saying ‘we are doing our best.’ You have got to succeed in doing what is necessary. ~ Winston Churchill",
     "When the power of love overcomes the love of power the world will know peace. ~ Jimi Hendrix",
-    "We do not have to become heroes overnight. Just a step at a time, meeting each thing that comes up, seeing it as not as dreadful as it appears, discovering that we have the strength to stare it down. ~ Eleanor Roosevelt"
+    "We do not have to become heroes overnight. Just a step at a time, meeting each thing that comes up, seeing it as not as dreadful as it appears, discovering that we have the strength to stare it down. ~ Eleanor Roosevelt",
+    "Luminous beings we are, not this crude matter. ~ Yoda",
+    "Children are educated by what the grown-up is, and not by his talk ~ Carl Jung",
+    "Strive not to be a success, but to be of value. ~ Albert Einstein"
 ];
 
 $("#inspired").click(function(){
