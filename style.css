@@ -145,10 +145,10 @@ img.bears {
   }
  
 }
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 490px) {
 
     .choice-button-flex {
-        margin-left: -3%;
+        margin-left: -1%;
     
   }
  
