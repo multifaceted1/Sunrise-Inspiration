@@ -19,7 +19,7 @@ main {
 
 .choice-button-flex {
     display: flex;
-    margin-left: 39%;
+    margin-left: 37%;
 
 }
 .feeling {
@@ -118,11 +118,11 @@ img.bears {
     @keyframes sunrise {
         from {bottom: -3%;
             opacity: 60%;}
-        to {bottom: 80%;
+        to {bottom: 79%;
             opacity: 100%;}
     }
     .sun {
-        bottom: 80%;
+        bottom: 79%;
     }
     .choice-button-flex {
         margin-left: 23%;
@@ -132,12 +132,12 @@ img.bears {
   @media only screen and (max-width: 700px) {
 
         .choice-button-flex {
-            margin-left: 7%;
+            margin-left: 9%;
         
         }
   }
 
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 570px) {
 
     .choice-button-flex {
         margin-left: none;
